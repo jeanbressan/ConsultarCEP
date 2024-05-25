@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="cep">
+       CEP: <input onblur="consultaCep()" type="text" name="cep" id="cep" placeholder="digite seu cep">
+    </div>
+
+    <div class="btn">
+        <button onclick="consultaCep()">Consultar</button>
+        <button onclick="salvarCep()">Salvar</button>
+    </div>
+
+    <div class="principal">
+        Logradouro: <input type="text" name="logradouro" id="logradouro">
+        Número: <input type="text" name="number" id="number">
+        Bairro: <input type="text" name="bairro" id="bairro">
+        Cidade: <input type="text" name="city" id="city">
+        Estado: <input type="text" name="estado" id="estado">
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>    
+    <script src="app.js"></script>    
+</body>
+</html>
