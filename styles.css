@@ -1,26 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 body{
-    background-color: rgb(161, 159, 159);
+    background-color: rgb(194, 186, 186);
+    font-family: serif;
+    font-size: large;
 }
 
 .cep{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.btn{
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .principal{
-    display: flex;
+    display: flexbox;
+    margin: 75px;
+    padding: 150px 575px;
     align-items: center;
     justify-content: center;
+    width: min-content
 }
